@@ -1,11 +1,11 @@
 import React from "react"
+import { Button } from "./components/Button/Button"
 
 export function App() {
   return (
     <>
-      <p>
-        Pomodoro Timer
-      </p>
+      <Button color="primary" />
+      <Button color="secondary" />
     </>
   )
 }
