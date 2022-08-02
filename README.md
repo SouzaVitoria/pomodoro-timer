@@ -13,6 +13,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org)
+- [Styled Components](https://styled-components.com/)
 
 ---
 
@@ -34,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 📚 **Extensões do VSCode**
 
-...
+- vscode-styled-components
 
 ---
 
