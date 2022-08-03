@@ -40,6 +40,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
       <Route path="/products" element={<Component />} />
     </Route>
     ```
+- **React Hook Form:** é uma biblioteca que conseguimos trabalhar com formulários de maneira controlled e uncontrolled
 
 ---
 
