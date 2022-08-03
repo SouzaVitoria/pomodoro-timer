@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Play } from "phosphor-react";
 import {
   CountdownContainer,
@@ -10,6 +11,8 @@ import {
 } from "./styles";
 
 export function Home() {
+  const [task, setTask] = useState<string>("");
+
   return (
     <HomeContainer>
       <form>
@@ -19,6 +22,8 @@ export function Home() {
             id="task"
             list="task-suggestions"
             placeholder="Dê um nome para o seu projeto"
+            onChange={(e) => setTask(e.target.value)}
+            value={task}
           />
 
           <datalist id="task-suggestions">
