@@ -21,7 +21,7 @@ export function Home() {
       .max(60, "O ciclo precisar ser do no máximo 60 minutos")
   });
 
-  const { register, handleSubmit, watch, formState } = useForm({
+  const { register, handleSubmit, watch } = useForm({
     resolver: zodResolver(newCycleFormValidationSchema)
   });
 
@@ -31,8 +31,6 @@ export function Home() {
 
   const task = watch("task");
   const isSubmitDisabled = !task;
-
-  console.log(formState.errors);
 
   return (
     <HomeContainer>
