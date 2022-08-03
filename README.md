@@ -31,6 +31,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - **Ícones:** [https://phosphoricons.com/](phosphor-react)
 
+- **React Router DOM:**
+  - **Outlet:** é um espaço para ser inserido um conteúdo
+  - **Route:** um route dentro de outro route, os path's vão se encadeando.
+    Exemplo: `/admin/products`
+    ```tsx
+    <Route path="/admin" element={<Component />}>
+      <Route path="/products" element={<Component />} />
+    </Route>
+    ```
+
 ---
 
 ## 📚 **Extensões do VSCode**
