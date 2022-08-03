@@ -42,6 +42,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
     ```
 - **React Hook Form:** é uma biblioteca que conseguimos trabalhar com formulários de maneira controlled e uncontrolled
 
+  - React Hook Form integra com outra bibliotecas para validações, mas para realizar essa integração, precisamos instalar @hookform/resolvers
+
+- **Zod:** é uma biblioteca de validação
+  | Outras bibliotecas: yup, joi (lib js)
+
 ---
 
 ## 📚 **Extensões do VSCode**
